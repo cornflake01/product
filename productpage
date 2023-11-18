@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Fresh Produce Market</title>
+</head>
+<body>
+    <header id="header">
+        <img id="header-img" src="freshfarmlogo.jpeg" alt="Fresh Produce Market Logo">
+        <nav id="nav-bar">
+            <a href="#about" class="nav-link">About Us</a>
+            <a href="#products" class="nav-link">Our Products</a>
+            <a href="#contact" class="nav-link">Contact</a>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <h1>Welcome to Fresh Produce Market</h1>
+        <p>Discover the freshest and most delicious produce sourced directly from local farmers.</p>
+        <a href="#products" class="cta-button">Explore Our Products</a>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Welcome to Fresh Produce Market, where our passion for quality meets your love for fresh, nutritious food. Our journey began in the lush fields of local farms, where we forged lasting relationships with dedicated farmers who share our commitment to sustainable agriculture.</p>
+        <p>At Fresh Produce Market, we believe in the power of community and the importance of supporting local businesses. Our mission is to bring you the finest selection of fruits and vegetables, harvested at the peak of freshness and delivered straight to your table.</p>
+        <p>With a focus on transparency and integrity, we take pride in providing you with a farm-to-table experience. Join us in celebrating the vibrant flavors and colors of nature's bounty, and let Fresh Produce Market be your go-to destination for all things fresh and delicious.</p>
+    </section>
+
+    <section id="products">
+        <h2>Our Products</h2>
+        <div class="product">
+            <img src="carrots.jpeg" alt="Carrots">
+            <h3>Carrots</h3>
+            <p>Crunchy and sweet, our carrots are packed with vitamins and perfect for snacking or cooking.</p>
+            <p>Price: $2.99/kg</p>
+        </div>
+
+        <div class="product">
+            <img src="tomatoes.jpeg" alt="Tomatoes">
+            <h3>Tomatoes</h3>
+            <p>Plump and juicy, our tomatoes are great for salads, sandwiches, or making a delicious pasta sauce.</p>
+            <p>Price: $3.49/kg</p>
+        </div>
+
+        <div class="product">
+            <img src="bellpepper.jpeg" alt="Bell Peppers">
+            <h3>Bell Peppers</h3>
+            <p>Sweet and colorful, our bell peppers add a vibrant touch to your meals. Great for stir-fries or snacking.</p>
+            <p>Price: $4.99/kg</p>
+        </div>
+
+        <div class="product">
+            <img src="broccoli.jpeg" alt="Broccoli">
+            <h3>Broccoli</h3>
+            <p>Loaded with nutrients, our broccoli is perfect for steaming, roasting, or adding to your favorite dishes.</p>
+            <p>Price: $3.79/kg</p>
+        </div>
+       
+    </section>
+
+    <section id="video">
+    <h2>Watch Our Farm-to-Table Process</h2>
+    
+    <iframe width="560" height="315" src="https://www.youtube.com/watch?v=YemM5RiCKpA" frameborder="0" allowfullscreen></iframe>
+</section>
+
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Have any questions or feedback? Reach out to us!</p>
+        <form action="https://www.freecodecamp.com/email-submit" method="post" id="form">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            <input type="submit" id="submit" value="Subscribe">
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Fresh Produce Market. All rights reserved.</p>
+    </footer>
+</body>
+</html>
